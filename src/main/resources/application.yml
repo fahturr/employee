@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: employee
+app:
+  external:
+    integration:
+      dummyjson:
+        connect-timeout: 2000
+        base-url: https://dummyjson.com/
